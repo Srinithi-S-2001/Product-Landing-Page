@@ -1,0 +1,150 @@
+@media screen and (min-width:481px){
+    body{
+        background:linear-gradient(60deg,#CCFFFF,#FFCCCC);
+        position:relative;
+        top:90px;
+      }
+      #header{
+        position:fixed;
+        display:inline;
+        top:0px;
+        left:0px;
+        width:100%;
+        height:75px;
+        background-color:	hsl(0,0%,60%);
+        opacity:0.8;
+      }
+      #header-img{
+        width:auto;
+        height:46px;
+        margin-left:40px;
+        margin-top:13px;
+        opacity:1 !important;
+        border:solid 3px black;
+      }
+      #nav-bar{
+        display:inline;
+      }
+      .nav-link{
+        position:relative;
+        left:20%;
+        right:20%;
+        color:black;
+        font-size:20px;
+        text-decoration:none;
+       }
+      [type=email]{
+        margin:auto;
+        display:block;
+        width:30%;
+      }
+      [type=submit]{
+        margin:auto;
+        display:block;
+        background-color:pink;
+        transform:scale(1.5)
+       }
+      ul{
+        margin-left:10px !important;
+        margin-top:1px;
+        margin-right:10px !important;
+        border:solid 3px gray;
+        background-color:hsl(0,50%,90%);
+        color:black;
+        font-size:40px !important;
+        border-radius:0.3%;
+        box-shadow:10px 10px 20px 3px rgba(0,0,0);
+      }
+       #video{
+            margin-left:500px;
+            margin-top:30px;
+            margin-right:400px;
+        }
+      #prices{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        margin-left:20px;
+        margin-top:50px;
+      }
+      #cake,#snack,#cookies{
+        width:300px;
+        height:300px;
+        background-color:#F5FFFA;
+      }
+      
+}
+body{
+    background:linear-gradient(60deg,#CCFFFF,#FFCCCC);
+    position:relative;
+    top:90px;
+  }
+  #header{
+    position:fixed;
+    display:inline;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:75px;
+    background-color:	hsl(0,0%,60%);
+    opacity:0.8;
+  }
+  #header-img{
+    width:auto;
+    height:46px;
+    margin-left:40px;
+    margin-top:13px;
+    opacity:1 !important;
+    border:solid 3px black;
+  }
+  #nav-bar{
+    display:inline;
+  }
+  .nav-link{
+    position:relative;
+    left:40%;
+    right:30%;
+    color:black;
+    font-size:30px;
+    text-decoration:none;
+   }
+  [type=email]{
+    margin:auto;
+    display:block;
+    width:30%;
+  }
+  [type=submit]{
+    margin:auto;
+    display:block;
+    background-color:pink;
+    transform:scale(1.5)
+   }
+  ul{
+    margin-left:300px;
+    margin-top:30px;
+    margin-right:400px;
+    border:solid 3px gray;
+    background-color:hsl(0,50%,90%);
+    color:black;
+    font-size:30px;
+    border-radius:0.3%;
+    box-shadow:10px 10px 20px 3px rgba(0,0,0);
+  }
+   #video{
+        margin-left:500px;
+        margin-top:30px;
+        margin-right:400px;
+    }
+  #prices{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-left:20px;
+    margin-top:50px;
+  }
+  #cake,#snack,#cookies{
+    width:300px;
+    height:300px;
+    background-color:#F5FFFA;
+  }
+  
